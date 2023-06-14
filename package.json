@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "compile": "npx mitosis compile src/**.tsx -t reactN|ative --out-dir lib/reactNative && npx mitosis compile src/**.tsx -t qwik --out-dir lib/qwik",
+        "lint":  "npx prettier src/**.tsx -w"    
+},
+    "dependencies": {
+        "@builder.io/mitosis": "^0.0.104",
+        "@builder.io/mitosis-cli": "^0.0.62",
+        "typescript": "^4.9.5",
+        "typescript-cli": "^0.1.0"
+    }
+}

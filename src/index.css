@@ -1,0 +1,18 @@
+body {
+    height: 100svh;
+}
+.responsiveGrid {
+display: flex;
+flex-direction: column;
+}
+.responsiveGrid * {
+    height: 30svh;
+}
+@media (min-height: 890px) and (min-width: 600px) {
+.responsiveGrid {
+display: grid;
+grid-template-rows: 100px 100px;
+grid-template-columns: 100px 100px 100px;
+}
+}
+
